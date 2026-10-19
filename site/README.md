@@ -5,7 +5,7 @@ To share on a LAN: `python3 -m http.server 8000` in this folder.
 
 ## Layout
 - `index.html` — page structure and copy (9 sections: race, engine, stack, benchmark, screening, design, assembly, conformation, scale)
-- `assets/css/style.css` — layout plus two token sets: night (`:root`, default) and day (`:root[data-theme="light"]`); the nav sun/moon button switches and remembers the choice in localStorage
+- `assets/css/style.css` — layout plus two token sets: night (`:root`) and day (`:root[data-theme="light"]`, default — set before first paint unless the visitor chose night); the nav sun/moon button switches and remembers the choice in localStorage
 - `assets/js/hero.js` — hero: 7QVE (28 chains) assembled chain by chain as a 3Dmol cartoon over a speed-streak layer; also the shared script/structure loader (`window.TCL`) used by main.js
 - `assets/js/charts.js` — all ECharts panels (lazy-built when scrolled into view)
 - `assets/js/main.js` — nav, race animation, engine diagram, 3Dmol viewers, number wall, gallery
@@ -29,4 +29,5 @@ Paper figures are intentionally not on the site; the previously generated copies
 Google Fonts (Inter, Space Grotesk, JetBrains Mono) load online; offline the page falls back to system fonts.
 
 ## To fill in
+Visitor and visit counts in the footer come from busuanzi (busuanzi.ibruce.info).
 Author list and BibTeX in the footer of `index.html` are placeholders.

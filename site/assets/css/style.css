@@ -314,6 +314,9 @@ button { font: inherit; color: inherit; }
 /* ---------- footer ---------- */
 .footer { margin-top: 120px; padding: 60px 0 70px; border-top: 1px solid var(--line); background: var(--bg-2); }
 .foot-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
+.foot-stats { margin: 40px 0 0; padding-top: 20px; border-top: 1px solid var(--line); text-align: center; font-family: var(--mono); }
+.foot-stats b { color: var(--text); font-weight: 600; margin-left: 4px; }
+.foot-stats span { margin: 0 12px; }
 .footer h4 { font: 600 12px var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--muted); margin: 0 0 10px; }
 .bib { font: 12.5px/1.55 var(--mono); color: var(--text-2); background: var(--code-bg); border: 1px solid var(--line); border-radius: 12px; padding: 16px; overflow-x: auto; margin: 0 0 12px; }
 
