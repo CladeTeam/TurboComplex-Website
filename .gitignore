@@ -1,0 +1,16 @@
+# Only the website and its deploy workflow are versioned; everything else in Web/ stays local
+/*
+!/.gitignore
+!/.github/
+!/site/
+
+# Local server artifacts
+site/.server.log
+site/.server.pid
+
+# Raw assembled PDBs: only the packed assets/structures/*.js are loaded by the page
+site/assets/structures/*.pdb
+
+__pycache__/
+*.pyc
+.DS_Store
